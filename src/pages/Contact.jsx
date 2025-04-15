@@ -1,11 +1,11 @@
 import React from 'react';
+import ContactSection from '../components/ContactSection';
+import './Contact.css'; // Optional page-specific styles
 
 const Contact = () => {
   return (
-    <div>
-      <h1>Contact Us</h1>
-      <p>Email: info@example.com</p>
-      <p>Phone: +234 700 000 0000</p>
+    <div className="contact-page-wrapper">
+      <ContactSection />
     </div>
   );
 };
