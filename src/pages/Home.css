@@ -1,0 +1,30 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 0;
+  margin: 0;
+}
+
+/* Optional section base styles */
+section {
+  width: 100%;
+  padding: 2rem 4rem;
+  box-sizing: border-box;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  section {
+    padding: 1.5rem 1rem;
+  }
+
+  main {
+    gap: 2.5rem;
+  }
+}
