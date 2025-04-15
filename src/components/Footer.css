@@ -1,0 +1,15 @@
+/* Footer.css */
+
+footer {
+  padding: 2rem;
+  background-color: #eee;
+  text-align: center;
+  color: #444;
+  font-size: 0.95rem;
+  margin-top: auto; /* helps push it to the bottom */
+  border-top: 1px solid #ccc;
+}
+
+footer p {
+  margin: 0;
+}

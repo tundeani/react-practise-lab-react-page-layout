@@ -1,0 +1,25 @@
+/* Header.css */
+
+header {
+  padding: 1rem;
+  background-color: #0a4d4d;
+  color: #fff;
+}
+
+header h2 h6 {
+  margin: 1rem;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin-right: 2rem;
+  text-decoration: none;
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
