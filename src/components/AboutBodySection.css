@@ -1,0 +1,64 @@
+/* src/components/AboutBodySection.css */
+
+.about-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.about-block {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.about-block h2 {
+  font-size: 1.8rem;
+  color: #0a4d4d;
+  margin-bottom: 1rem;
+}
+
+.about-block p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+.timeline {
+  list-style: none;
+  padding-left: 1rem;
+  color: #444;
+}
+
+.timeline li {
+  margin-bottom: 0.8rem;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.timeline li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #0a4d4d;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .about-body {
+    padding: 1rem;
+  }
+
+  .about-block h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .about-block p {
+    font-size: 1rem;
+  }
+}

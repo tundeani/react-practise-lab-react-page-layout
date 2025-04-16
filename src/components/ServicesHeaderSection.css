@@ -1,0 +1,36 @@
+/* src/styles/ServicesHeaderSection.css */
+
+.services-header-section {
+  background-color: #0a4d4d;
+  color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.services-header-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.services-header-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.services-header-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .services-header-content h1 {
+    font-size: 2rem;
+  }
+
+  .services-header-content p {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,109 @@
+/* src/components/ServicesSectionBody.css */
+
+.services-body {
+  padding: 2rem 1rem;
+  background-color: #f9fdfd;
+}
+
+/* How We Work */
+.how-we-work {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.how-we-work h2 {
+  color: #0a4d4d;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.work-steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.step {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 260px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.step h3 {
+  font-size: 1.1rem;
+  color: #0a4d4d;
+  margin-bottom: 0.5rem;
+}
+
+/* Why Our Services */
+.why-our-services {
+  text-align: center;
+  padding: 2rem 0;
+  margin: 2rem 0;
+}
+
+.why-our-services h2 {
+  color: #0a4d4d;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.why-our-services ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: auto;
+}
+
+.why-our-services li {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #333;
+}
+
+/* Call To Action */
+.cta-section {
+  background-color: #0a4d4d;
+  color: #fff;
+  text-align: center;
+  padding: 3rem 1rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+.cta-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cta-section p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #fff;
+  color: #0a4d4d;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e6f7f7;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .work-steps {
+    flex-direction: column;
+    align-items: center;
+  }
+}

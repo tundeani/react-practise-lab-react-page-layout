@@ -1,5 +1,5 @@
 import React from 'react';
-import './ServicesListSection.css';
+import './ServiceCardsSection.css';
 import { FaLaptopCode, FaCloud } from 'react-icons/fa';
 
 const services = [
@@ -22,7 +22,7 @@ const services = [
   },
 ];
 
-const ServicesListSection = () => {
+const ServiceCardsSection = () => {
   return (
     <section className="services">
       <h2>Our Services</h2>
@@ -39,4 +39,4 @@ const ServicesListSection = () => {
   );
 };
 
-export default ServicesListSection;
+export default ServiceCardsSection;

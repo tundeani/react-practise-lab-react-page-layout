@@ -1,0 +1,15 @@
+/* src/styles/Services.css */
+
+.services-page {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+/* Add space between sections */
+.services-page > * {
+  margin-bottom: 2rem;
+}
